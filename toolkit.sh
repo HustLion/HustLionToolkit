@@ -1,18 +1,11 @@
 #! /bin/sh
 
 # basic tools
-sudo apt-get install git
-sudo apt-get install vim-gnome
-sudo apt-get install curl
-sudo apt-get install gitk
-sudo apt-get install pandoc
+sudo apt-get install git vim-gnome pathogen curl gitk pandoc
 
 # Autotools
-sudo apt-get install build-essential
-sudo apt-get install autopoint
-sudo apt-get install automake
-sudo apt-get install autoconf
-sudo apt-get install gettext-base gettext liblocale-gettext-perl
+sudo apt-get install build-essential autopoint automake autoconf \
+gettext-base gettext liblocale-gettext-perl
 
 # mentohust specific
 sudo apt-get install libpcap-dev libnotify-dev

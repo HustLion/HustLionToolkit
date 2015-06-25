@@ -6,8 +6,6 @@ filetype plugin indent on
 filetype plugin on
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
-#set ruler
-set matchpairs+=<:>,<<:>>,=:;
 
 "-- pandoc Markdown+LaTeX -------------------------------------------
 function s:MDSettings()

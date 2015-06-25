@@ -7,9 +7,9 @@ chmod +x toolkit.sh
 chmod +x vimPlugins.sh
 ./vimPlugins.sh
 
-if [-a ~/.vimrc]; then
-  currentTime = `times`
-  mv ~/.vimrc ~/.vimrc.old.$currentTime
+if [ test -a ~/.vimrc ]
+then
+  rm ~/.vimrc
   cp .vimrc ~/.vimrc
 else
   cp .vimrc ~/.vimrc
