@@ -29,7 +29,7 @@ Thanks to the list in [awesome-awesomeness](https://github.com/bayandin/awesome-
 
 I think I will start with interesting games:
 
-## Snake
+## learning - Snake
 Browser based, really simple game as a start: [Snake](https://github.com/HustLion/snake), with this [tutorial](http://billmill.org/static/canvastutorial/index.html) which refers to more advanced material about [collision](http://www.metanetsoftware.com/technique/tutorialA.html). 
 
 Some good resources: 
@@ -41,6 +41,10 @@ Some good resources:
 * [jQuery](http://jquery.com/)
 * [Mako](http://www.makotemplates.org/): Mako is a template library written in Python.
 
+Tool:
+* Eclipse
+* HTML Editor (WTP) Luna
+* Firefox
 
 ## Craft
 A sandbox game: [Craft](https://github.com/HustLion/Craft)
