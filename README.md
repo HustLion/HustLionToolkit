@@ -77,12 +77,29 @@ The build failed with the info:
 	CMake Error at /usr/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake:108 (message):
 	Could NOT find Freetype (missing: FREETYPE_INCLUDE_DIRS) (found version 11.0.5")
 
+To resolve it, simply use:
+	sudo apt-get install 
+
 
 Resources:
 * [FreeType](http://www.freetype.org/): FreeType is a freely available software library to render fonts. Use `freetype-config` to check the version of the library that is installed on your system.
+* [SDL](http://www.libsdl.org/)
+* [OpenGL](http://www.opengl.org/)
+* [GLEW](http://glew.sourceforge.net/)
+* [OpenAL](http://kcat.strangesoft.net/openal.html)
+* [zlib](http://zlib.net/)
+* [Boost](http://www.boost.org/)
+* [GLM](http://glm.g-truc.net/): OpenGL Mathematics
+* [Qt 4.7+ or 5: QtCore, QtGui, QtWidgets (for Qt 5 only) and QtNetwork libraries](http://qt.nokia.com/)
+* [GDB](http://www.gnu.org/software/gdb/)
+* Run arx in a debugger, [instructions](http://wiki.arx-libertatis.org/Debugging)
+
+
 
 
 Further Reading:
 * [FreeType](http://www.freetype.org/) `autogen.sh`, `freetype-config` files.
+* arx `arx-install-data` script, can be launched with a window, wonderful, have a look.
+* arx developer doc. `make doc`->not working, `make style`-> valid
 
 ## next
