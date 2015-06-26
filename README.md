@@ -46,21 +46,60 @@ Tool:
 * HTML Editor (WTP) Luna
 * Firefox
 
+## Refresh-canvas
+After learning Snake, I think it's good to read the git repo that provided the tutorials, [refresh-canvas](https://github.com/HustLion/refresh-canvas).
+
+I think this is more of a Mako example.
+
+* [Mako](http://www.makotemplates.org/): Mako is a template library written in Python.
+* [jQuery UI](http://learn.jquery.com/jquery-ui/getting-started/): really marvelous... quickly a modern, elegant UI,,
+
+
 ## Coffee-snake - coffee script
 [Coffee-snake](https://github.com/HustLion/coffee-snake) is a great successor for the [snake](## learning - Snake - Web), which has github pages and gitmodules and coffee script. Consider it as a upgrade :).
+
+Command about **submodule** (learnt [here](http://blog.csdn.net/wangjia55/article/details/24400501)):
+	git submodule update --init --recursive
+
+* [tutorial](http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery)
+* [The code player](http://thecodeplayer.com/): a wonderful learning site.
+* [Coffee script](http://coffee-script.org/#language)
+* [Atom](https://github.com/nornagon/atom): a small <canvas> framework.
 
 ## javascript_snake - web
 This is with Phaser Engine. [Javascript_snake](https://github.com/HustLion/javascript_snake).
 
-## Craft - C
+This one is quite advanced among all the 'snakes' here.
+
+* [Phaser](http://phaser.io): A fast, free and fun open source framework for Canvas and WebGL powered browser games.
+
+## compiled - Craft - C
 A sandbox game: [Craft](https://github.com/HustLion/Craft)
 
-## Refresh-canvas
-After learning Snake, I think it's good to read the git repo that provided the tutorials, [refresh-canvas](https://github.com/HustLion/refresh-canvas).
+Easy to compile and run.
+
+* a .gitignore file here. Good demo.
+
 
 ## Lila - web
 
 A complex browser based chess game: [Lila](https://github.com/HustLion/lila)
+
+This is really a huge one.
+
+* [Build tutorial](https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding)
+* [Node.js](https://nodejs.org/): for npm. And [Tutorial](https://github.com/workshopper/learnyounode)
+* [zsh](http://www.zsh.org/): [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh) and some introductory [material](http://zhuanlan.zhihu.com/mactalk/19556676)
+* [sbt](http://www.scala-sbt.org/)
+* [Scala 2.11](http://www.scala-lang.org/)
+* [Play 2.3](http://www.playframework.com/)
+* [Akka 2 actors](http://akka.io)
+* [Stockfish](http://stockfishchess.org/): a chess engine.
+* [MongoDB 2.6](http://mongodb.org): [Install and run](http://docs.mongodb.org/master/tutorial/install-mongodb-on-ubuntu/?_ga=1.98665310.1727689462.1435314057)
+* [OpenSSL](https://www.openssl.org/)
+* [nginx 1.6](http://nginx.org): [beginner guide](http://nginx.org/en/docs/beginners_guide.html)
+* [mithril.js](http://lhorie.github.io/mithril/)
+* [prismic.io](http://prismic.io): Free Simple repository plan for Open Source and Open Content projects. Content under this plan will be licensed under the Creative Commons Attribution 4.0 International License.
 
 ## compiled - ArxLibertatis - C++
 [ArxLibertatis](https://github.com/HustLion/ArxLibertatis) is a first-person role-playing game. And there is detailed comlipling [guide](http://wiki.arx-libertatis.org/Downloading_and_Compiling_under_Linux) available, which is very helpful for me as a starter.
@@ -86,7 +125,7 @@ To resolve it, simply use:
 
 Shortcut to toggle windowed and fullscreen mode (default is Alt+Enter) 
 
-Resources:
+### Resources:
 * [FreeType](http://www.freetype.org/): FreeType is a freely available software library to render fonts. Use `freetype-config` to check the version of the library that is installed on your system.
 * [SDL](http://www.libsdl.org/)
 * [OpenGL](http://www.opengl.org/)
@@ -99,14 +138,16 @@ Resources:
 * [GDB](http://www.gnu.org/software/gdb/)
 * Run arx in a debugger, [instructions](http://wiki.arx-libertatis.org/Debugging)
 
-Bug found:
+### Bug found:
 
 When the game is switched to fullscreen, the mouse moves too fast.
 
 
-Further Reading:
+### Further Reading:
 * [FreeType](http://www.freetype.org/) `autogen.sh`, `freetype-config` files.
 * arx `arx-install-data` script, can be launched with a window, wonderful, have a look.
 * arx developer doc. `make doc`->not working, `make style`-> valid. Also the [website](http://wiki.arx-libertatis.org/Developer_Information)
 
 ## next
+[Newtoon's Revenge](https://github.com/HustLion/NewtonsRevenge)
+A very good manual demo [playframework manual](https://github.com/playframework/playframework/tree/2.4.x/documentation/manual)
