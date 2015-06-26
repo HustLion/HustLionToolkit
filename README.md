@@ -73,6 +73,11 @@ This one is quite advanced among all the 'snakes' here.
 
 * [Phaser](http://phaser.io): A fast, free and fun open source framework for Canvas and WebGL powered browser games.
 
+## Coil
+[Coil](https://github.com/HustLion/Coil) great UI! Sci-Fi! Great!
+
+* a great user [Lee Reilly](https://github.com/leereilly) with a wonderful modern [site](http://hakim.se/)
+
 ## compiled - Craft - C
 A sandbox game: [Craft](https://github.com/HustLion/Craft)
 
@@ -148,6 +153,23 @@ When the game is switched to fullscreen, the mouse moves too fast.
 * arx `arx-install-data` script, can be launched with a window, wonderful, have a look.
 * arx developer doc. `make doc`->not working, `make style`-> valid. Also the [website](http://wiki.arx-libertatis.org/Developer_Information)
 
+
+## Alge's Escapade
+[Alge's Escapade](https://github.com/HustLion/game-off-2012), HTML5, JavaScript, GameJs arcade game where you control an Algae. 
+
+Interesting.
+
+
+
 ## next
 [Newtoon's Revenge](https://github.com/HustLion/NewtonsRevenge)
 A very good manual demo [playframework manual](https://github.com/playframework/playframework/tree/2.4.x/documentation/manual)
+
+[Avabranch](https://github.com/Zolmeister/avabranch) a snake variant.
+[Heal 'em All ]() modern zombie.
+Hyperspace Garbage Collector
+HexGL : Sci-Fi, racing
+0hh1
+2048 
+Monkey Rally 
+
