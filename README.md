@@ -62,12 +62,16 @@ After learning Snake, I think it's good to read the git repo that provided the t
 
 A complex browser based chess game: [Lila](https://github.com/HustLion/lila)
 
-## ArxLibertatis - C++
+## compiled - ArxLibertatis - C++
 [ArxLibertatis](https://github.com/HustLion/ArxLibertatis) is a first-person role-playing game. And there is detailed comlipling [guide](http://wiki.arx-libertatis.org/Downloading_and_Compiling_under_Linux) available, which is very helpful for me as a starter.
 
 There are many dependencies to install which could be fun and expand my toolkit.
 
-Notes:
+After compiling, I think, this is good for learning, but the quality of characters is not as high as commercial ones such as Resident Evil. It's sufficient for learning purpose, but can I find some really elegant games to learn?
+
+
+
+### Notes:
 CMakeList.txt seems quite important for cmake. Check it out later, [post](http://stackoverflow.com/questions/2601798/adding-compiled-libraries-and-include-files-to-a-cmake-project).
 
 [Find Freetype](http://www.cmake.org/cmake/help/v3.0/module/FindFreetype.html)
@@ -80,6 +84,7 @@ The build failed with the info:
 To resolve it, simply use:
 	sudo apt-get install 
 
+Shortcut to toggle windowed and fullscreen mode (default is Alt+Enter) 
 
 Resources:
 * [FreeType](http://www.freetype.org/): FreeType is a freely available software library to render fonts. Use `freetype-config` to check the version of the library that is installed on your system.
@@ -94,12 +99,14 @@ Resources:
 * [GDB](http://www.gnu.org/software/gdb/)
 * Run arx in a debugger, [instructions](http://wiki.arx-libertatis.org/Debugging)
 
+Bug found:
 
+When the game is switched to fullscreen, the mouse moves too fast.
 
 
 Further Reading:
 * [FreeType](http://www.freetype.org/) `autogen.sh`, `freetype-config` files.
 * arx `arx-install-data` script, can be launched with a window, wonderful, have a look.
-* arx developer doc. `make doc`->not working, `make style`-> valid
+* arx developer doc. `make doc`->not working, `make style`-> valid. Also the [website](http://wiki.arx-libertatis.org/Developer_Information)
 
 ## next
