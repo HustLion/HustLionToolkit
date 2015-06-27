@@ -7,6 +7,9 @@ sudo apt-get install git vim-gnome pathogen curl gitk pandoc
 sudo apt-get install build-essential autopoint automake autoconf \
 gettext-base gettext liblocale-gettext-perl
 
+# compiler
+sudo apt-get install g++ coffeescript
+
 # mentohust specific
 sudo apt-get install libpcap-dev libnotify-dev
 
@@ -32,5 +35,4 @@ sudo apt-get install oracle-java8-installer
 
 
 
-# compiler
-sudo apt-get install g++
+
