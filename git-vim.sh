@@ -1,5 +1,7 @@
 #! /bin/sh
 
+# refer to: http://blog.csdn.net/caoshuming_500/article/details/7648169
+
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
