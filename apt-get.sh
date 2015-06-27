@@ -21,10 +21,14 @@ sudo apt-get build-dep glfw
 echo "deb http://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 sudo apt-get update
 sudo apt-get install sbt zsh
-cd
-wget https://nodejs.org/dist/v0.12.5/node-v0.12.5-linux-x64.tar.gz
-cd /usr/local && sudo tar --strip-components 1 -xzf ~/node-v0.12.5-linux-x64.tar.gz
-rm ~/node-v0.12.5-linux-x64.tar.gz
+## java 8
+## http://www.linuxidc.com/Linux/2012-09/70253.htm
+## http://segmentfault.com/a/1190000001703180
+sudo add-apt-repository ppa:webupd8team/java
+
+sudo apt-get update
+
+sudo apt-get install oracle-java8-installer
 
 
 

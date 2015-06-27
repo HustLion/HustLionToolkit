@@ -72,6 +72,9 @@ This is with Phaser Engine. [Javascript_snake](https://github.com/HustLion/javas
 This one is quite advanced among all the 'snakes' here.
 
 * [Phaser](http://phaser.io): A fast, free and fun open source framework for Canvas and WebGL powered browser games.
+* [cocos2d-x](https://github.com/cocos2d/cocos2d-x): cocos2d-x is a multi-platform framework for building 2d games, interactive books, demos and other graphical applications. It is based on cocos2d-iphone, but instead of using Objective-C, it uses C++. It works on iOS, Android, Windows Phone and Store Apps, OS X, Windows and Linux.
+* [cocos2d-html5](https://github.com/cocos2d/cocos2d-html5): Cocos2d-html5 is a cross-platform 2D game engine written in Javascript, based on Cocos2d-X and licensed under MIT. It incorporates the same high level api as “Cocos2d JS-binding engine” and compatible with Cocos2d-X. It currently supports canvas and WebGL renderer.
+* [Bower](http://bower.io/): A package manager for the web.
 
 ## Coil
 [Coil](https://github.com/HustLion/Coil) great UI! Sci-Fi! Great!
