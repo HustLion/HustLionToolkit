@@ -30,6 +30,16 @@ I think this is more of a Mako example.
 
 * [Mako](http://www.makotemplates.org/): Mako is a template library written in Python.
 * [jQuery UI](http://learn.jquery.com/jquery-ui/getting-started/): really marvelous... quickly a modern, elegant UI,,
+* [Rsync](https://rsync.samba.org/): rsync is an open source utility that provides fast incremental file transfer. [Tutorial in Chinese](http://blog.sina.com.cn/s/blog_4b9b714a0100q34n.html)
+* [PyYaml](http://pyyaml.org/)
+* [a online editor for css](http://obsessing.org/)
+* [algorithm ink](http://azarask.in/projects/algorithm-ink/#d3c3be13)
+* [NodeBox](https://www.nodebox.net/code/index.php/Home): NodeBox is a Mac OS X application that lets you create 2D visuals (static, animated or interactive) using Python programming code and export them as a PDF or a QuickTime movie. NodeBox is free and well-documented.
+* [Farbtastic](http://acko.net/blog/farbtastic-jquery-color-picker-plug-in/): Farbtastic is a jQuery plug-in that can add one or more color picker widgets into a page.
+
+And, the presentation here is great... Excellent to teach coding. Can't imagine how we can finish it in MS PowerPoint or Prezi. Since we run code right on the page. By pressing `F11` in Firefox, it's quite great for presentation.
+
+Try to understand existing mako demos and rebuild the presentation in Mako haha.
 
 
 ## Coffee-snake - coffee script
