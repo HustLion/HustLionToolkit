@@ -36,6 +36,9 @@ I think this is more of a Mako example.
 * [algorithm ink](http://azarask.in/projects/algorithm-ink/#d3c3be13)
 * [NodeBox](https://www.nodebox.net/code/index.php/Home): NodeBox is a Mac OS X application that lets you create 2D visuals (static, animated or interactive) using Python programming code and export them as a PDF or a QuickTime movie. NodeBox is free and well-documented.
 * [Farbtastic](http://acko.net/blog/farbtastic-jquery-color-picker-plug-in/): Farbtastic is a jQuery plug-in that can add one or more color picker widgets into a page.
+* [About static website generators](https://iwantmyname.com/blog/2014/05/the-updated-big-list-of-static-website-generators-for-your-site-blog-or-wiki.html)
+* [jekyll](http://jekyllrb.com/)
+* [jekyll themes](http://jekyllthemes.org/)
 
 And, the presentation here is great... Excellent to teach coding. Can't imagine how we can finish it in MS PowerPoint or Prezi. Since we run code right on the page. By pressing `F11` in Firefox, it's quite great for presentation.
 
