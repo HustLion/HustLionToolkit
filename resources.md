@@ -1,3 +1,6 @@
+# Resources
+Those stuff I gathered with my learning. Or maybe I can just use awesome-awesomeness lists?
+
 # Reference and Tutorial Site
 * [Web Reference](http://www.webreference.com/)
 * [Mozilla Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial), which links to [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) tutorials, really helpful.
@@ -9,6 +12,14 @@
 * [customize bash](http://bashrcgenerator.com/)
 * [algorithm ink](http://azarask.in/projects/algorithm-ink/#d3c3be13)
 * [Rsync](https://rsync.samba.org/): rsync is an open source utility that provides fast incremental file transfer. [Tutorial in Chinese](http://blog.sina.com.cn/s/blog_4b9b714a0100q34n.html)
+* [rawgit.com](http://rawgit.com/): RawGit serves raw files directly from GitHub with proper Content-Type headers. 
+* [stats.js](http://github.com/mrdoob/stats.js): JavaScript Performance Monitor. From this learnt how to write js in bookmarklet.
+* [emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
+* [highcharts](https://github.com/highslide-software/highcharts.com/)
+
+# Game Development
+* THREE.js: [docs](http://threejs.org/docs/)
+* Cannon.js: this framework is a pure math and physics collection which can do complex calculations if you want a realistic simulation. [Docs](https://github.com/schteppe/cannon.js/wiki).
 
 
 # for blogging
