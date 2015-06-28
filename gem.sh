@@ -15,5 +15,6 @@ rm -r ruby-2.2.2/
 sudo gem install rubygems-update
 sudo update_rubygems
 
-# the default version of ruby on ubuntu 14.04 is too old to install jekyll.
+# the default version of ruby on ubuntu 14.04 is too old to install jekyll. I use jekyll to build github pages to present my web project. Later use c9 or even openshift.
 sudo gem install jekyll
+sudo gem install bundler
