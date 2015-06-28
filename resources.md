@@ -3,7 +3,7 @@
 * [Mozilla Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial), which links to [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) tutorials, really helpful.
 
 # good blogs
-
+[Mat](http://matthiasschuetz.com/en)
 
 # developer tools
 * [customize bash](http://bashrcgenerator.com/)

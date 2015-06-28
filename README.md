@@ -22,14 +22,29 @@ set git info and ssh connection.
 # Plan of learning
 Thanks to the list in [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness). My summaries for analyzed repositories goes to my [blog](http://hustlion.github.io/).
 
-
-
-## BuildNewGames_ThreeJSGame
-[BuildNewGames_ThreeJSGame forked from nklsrh/BuildNewGames_ThreeJSGame](https://github.com/HustLion/BuildNewGames_ThreeJSGame)
-
 ## THREE-BasicThirdPersonGame
 [THREE-BasicThirdPersonGame](https://github.com/HustLion/THREE-BasicThirdPersonGame): [tutorial](http://matthiasschuetz.com/three-basicthirdpersongame/docs). Really cool.
 
+I'm interested in three.js so I will learn this one. Later learn phaser engine.
+
+* THREE.js: [docs](http://threejs.org/docs/)
+* Cannon.js: this framework is a pure math and physics collection which can do complex calculations if you want a realistic simulation. [Docs](https://github.com/schteppe/cannon.js/wiki).
+* [stats.js](http://github.com/mrdoob/stats.js): JavaScript Performance Monitor. From this learnt how to write js in bookmarklet.
+* [rawgit.com](http://rawgit.com/): RawGit serves raw files directly from GitHub with proper Content-Type headers. 
+* [Google Closure Compiler](https://github.com/google/closure-compiler): To get the latest version of it, click [here](http://dl.google.com/closure-compiler/compiler-latest.zip). Also can get it [here](https://github.com/mrdoob/stats.js/tree/master/utils/compiler).
+* [ant](http://ant.apache.org/bindownload.cgi): Apache Ant is a Java library and command-line tool that help building software.
+* [emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
+
+With [rawgit.com](http://rawgit.com/), a new way to deploy my scripts to my pages: build js with closure, in html I use relative path, only in my post I use rawgit.com links. Then all the css, html, js should be automatically resolved. Actually if use my own server, I can have a cdn myself since the [source code](https://github.com/rgrove/rawgit) is available. :smiley:
+
+Analysis
+
+This is constructed as a tutorial. The code of all JavaScript files is fully commented. The whole game logic is placed in the `game.core.js` file.
+
+To start, read the [tutorial](http://matthiasschuetz.com/three-basicthirdpersongame/docs).
+
+## BuildNewGames_ThreeJSGame
+[BuildNewGames_ThreeJSGame forked from nklsrh/BuildNewGames_ThreeJSGame](https://github.com/HustLion/BuildNewGames_ThreeJSGame)
 
 
 ## Coffee-snake - coffee script

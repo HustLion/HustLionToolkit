@@ -8,7 +8,7 @@ sudo apt-get install build-essential autopoint automake autoconf \
 gettext-base gettext liblocale-gettext-perl
 
 # compiler
-sudo apt-get install g++ coffeescript
+sudo apt-get install g++ coffeescript ant
 
 # mentohust specific
 sudo apt-get install libpcap-dev libnotify-dev
