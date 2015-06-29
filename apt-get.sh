@@ -18,20 +18,20 @@ sudo apt-get install git build-essential cmake zlib1g-dev libfreetype6-dev libop
 
 # from https://github.com/HustLion/Craft
 sudo apt-get install cmake libglew-dev xorg-dev libcurl4-openssl-dev -y
-sudo apt-get build-dep glfw
+sudo apt-get build-dep -y glfw
 
 # from lila
 echo "deb http://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 sudo apt-get update
 sudo apt-get install sbt zsh -y
-## java 8
+## java 8, requires manual input
 ## http://www.linuxidc.com/Linux/2012-09/70253.htm
 ## http://segmentfault.com/a/1190000001703180
-sudo add-apt-repository ppa:webupd8team/java -y
+#sudo add-apt-repository ppa:webupd8team/java -y
 
-sudo apt-get update
+#sudo apt-get update
 
-sudo apt-get install oracle-java8-installer -y
+#sudo apt-get install oracle-java8-installer -y
 
 
 

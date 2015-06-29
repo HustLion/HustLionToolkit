@@ -9,7 +9,7 @@ cd ruby-2.2.2/
 make
 sudo make install
 cd
-rm -r ruby-2.2.2/
+#rm -r ruby-2.2.2/
 
 
 sudo gem install rubygems-update

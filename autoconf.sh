@@ -1,5 +1,8 @@
 #! /bin/sh
 
+# TODO
+# Rearrange things that requires manual inputs: zsh, java, bower(for permission to send user data)
+
 set -x
 #sudo rm /etc/apt/sources.list
 #sudo cp sources.list /etc/apt/sources.list
@@ -17,9 +20,10 @@ cd ~/HustLionToolkit/
 chmod +x apt-get-nginx.sh
 ./apt-get-nginx.sh
 
-cd ~/HustLionToolkit/
-chmod +x apt-get-zsh.sh
-./apt-get-zsh.sh
+# zsh require password,, interrupt the installation
+#cd ~/HustLionToolkit/
+#chmod +x apt-get-zsh.sh
+#./apt-get-zsh.sh
 
 cd ~/HustLionToolkit/
 chmod +x npm.sh
