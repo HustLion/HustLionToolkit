@@ -9,6 +9,8 @@
 # http://askubuntu.com/questions/176573/how-can-i-use-perl-5-12-in-10-10
 curl -L http://xrl.us/perlbrewinstall | bash
 source ~/perl5/perlbrew/etc/bashrc
+echo "source ~/perl5/perlbrew/etc/bashrc" | tee -a ~/.zshrc
+echo "source ~/perl5/perlbrew/etc/bashrc" | tee -a ~/.bashrc
 
 # perlbrew available
 perlbrew install 5.16.3
