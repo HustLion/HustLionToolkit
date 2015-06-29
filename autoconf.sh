@@ -1,7 +1,10 @@
 #! /bin/sh
 
+# System:
+# 40G Disk.
+
 # TODO
-# Rearrange things that requires manual inputs: zsh, java, bower(for permission to send user data)
+# Rearrange things that requires manual inputs: zsh, java, bower(for permission to send user data), bundle install(for github pages)
 
 set -x
 #sudo rm /etc/apt/sources.list
