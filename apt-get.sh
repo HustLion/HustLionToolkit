@@ -33,6 +33,9 @@ sudo apt-get install sbt zsh -y
 
 #sudo apt-get install oracle-java8-installer -y
 
+# from slic3r
+sudo apt-get install -y git build-essential libgtk2.0-dev libwxgtk2.8-dev libwx-perl libmodule-build-perl libnet-dbus-perl libexpat1-dev libxmu-dev freeglut3-dev libwxgtk-media2.8-dev
+
 
 
 

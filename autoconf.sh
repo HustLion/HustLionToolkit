@@ -23,6 +23,10 @@ cd ~/HustLionToolkit/
 chmod +x apt-get-nginx.sh
 ./apt-get-nginx.sh
 
+cd ~/HustLionToolkit/
+chmod +x cpanm.sh
+./cpanm.sh
+
 # zsh require password,, interrupt the installation
 #cd ~/HustLionToolkit/
 #chmod +x apt-get-zsh.sh
@@ -48,6 +52,8 @@ chmod +x git.sh
 cd ~/HustLionToolkit/
 chmod +x git-vim.sh
 ./git-vim.sh
+
+
 
 cd ~/HustLionToolkit/
 chmod +x pip.sh
