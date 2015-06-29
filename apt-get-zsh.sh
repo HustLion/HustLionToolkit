@@ -1,6 +1,6 @@
 #! /bin/sh
 
-sudo apt-get install zsh
+sudo apt-get install -y zsh
 
 
 # https://github.com/robbyrussell/oh-my-zsh
