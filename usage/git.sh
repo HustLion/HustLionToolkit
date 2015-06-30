@@ -8,6 +8,7 @@ ssh -T git@github.com
 
 git config --global user.name "HustLion"
 git config --global user.email "hustlionM@qq.com"
+git config --global push.default simple
 
 
 git submodule update --init --recursive
