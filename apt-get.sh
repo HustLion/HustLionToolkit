@@ -36,6 +36,8 @@ sudo apt-get install sbt zsh -y
 # from slic3r
 sudo apt-get install -y git build-essential libgtk2.0-dev libwxgtk2.8-dev libwx-perl libmodule-build-perl libnet-dbus-perl libexpat1-dev libxmu-dev freeglut3-dev libwxgtk-media2.8-dev
 
+# from cura
+sudo apt-get install -y python-opengl python-numpy python-serial python-setuptools python-wxgtk2.8 curl arduino
 
 
 

@@ -13,3 +13,6 @@ git clone git@github.com:HustLion/Craft.git
 git clone git@github.com:HustLion/Slic3r-Manual.git
 git clone git@github.com:HustLion/Cura.git
 git clone git@github.com:HustLion/CuraEngine.git
+git clone git@github.com:HustLion/free-for-dev.git
+git clone git@github.com:HustLion/PuzzleGame.git
+git clone git@github.com:HustLion/codecombat.git
