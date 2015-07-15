@@ -18,6 +18,11 @@ git clone git@github.com:HustLion/CuraEngine.git
 git clone git@github.com:HustLion/free-for-dev.git
 git clone git@github.com:HustLion/PuzzleGame.git
 git clone git@github.com:HustLion/codecombat.git
+git clone git@github.com:HustLion/SFACT.git
+
+# utilities
+git clone https://github.com/google/protobuf.git
+git clone https://github.com/Ultimaker/libArcus.git
 
 # mainly for docs
 mkdir docs

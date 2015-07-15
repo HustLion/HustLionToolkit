@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # basic tools
-sudo apt-get install -y git geomview vim-gnome pathogen curl gitk pandoc tree
+sudo apt-get install -y git geomview vim-gnome pathogen curl gitk pandoc tree libtool
 
 # Autotools
 sudo apt-get install build-essential autopoint automake autoconf \
