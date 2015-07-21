@@ -5,6 +5,7 @@
 # 
 # Install basics and development environments and clone some useful repositories.
 # should add alias and make this a utility script for update submodules, commit&push.
+# configure tools (copy dotfile to desired location)
 # not syntactically right but something like: 
 # alias-> hliont = make ~/HustLion/HustLionToolkit/makefile
 
