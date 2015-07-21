@@ -23,3 +23,18 @@ cp /tmp/root/* /mnt -a
 umount /tmp/root
 ### add some flags (system default: /etc/config/banner)
 echo Boot from ext U-disk >> /mnt/etc/banner
+### edit /etc/config/fstab
+vi /etc/config/fstab
+
+
+# config mount
+#         #option target  /home
+#         option device   /dev/sda1
+#         option fstype   ext3
+#         option options  rw,sync
+#         option enabled  1
+#         option enabled_fsck 0
+#         option is_rootfs 1
+
+## reboot
+reboot
