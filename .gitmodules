@@ -1,3 +1,6 @@
-[submodule "dotfiles.local"]
-	path = dotfiles.local
+[submodule "cross_platform/dotfiles.local"]
+	path = cross_platform/dotfiles.local
 	url = https://github.com/HustLion/dotfiles.local.git
+[submodule "cross_platform/dotfiles"]
+	path = cross_platform/dotfiles
+	url = https://github.com/thoughtbot/dotfiles.git

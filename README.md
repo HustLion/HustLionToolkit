@@ -9,6 +9,22 @@ By running the scripts in this repository, you will install:
 
 Also, your `~/.vimrc` file would totally be replaced by the `.vimrc` file in this repository.
 
+The project structure is shown below: 
+( with the command `tree -dL 2` )
+```
+.
+├── cross_platform
+│   ├── dotfiles
+│   └── dotfiles.local
+├── linux
+│   ├── examples
+│   └── usage
+├── mac_osx
+└── windows
+
+8 directories
+```
+
 # Disclaimer
 The owner of this repository doesn't guarantee the reliability of this repository and any possible damage it will cause to your system. So please carefully examine the details of the repository and use it at your own risk. 
 
