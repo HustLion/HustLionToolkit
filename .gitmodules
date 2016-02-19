@@ -1,0 +1,3 @@
+[submodule "dotfiles.local"]
+	path = dotfiles.local
+	url = https://github.com/HustLion/dotfiles.local.git
