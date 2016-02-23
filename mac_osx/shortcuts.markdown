@@ -167,4 +167,12 @@ Capitalization doesn't matter here.
 
 ### XAligh
 * control + shift + X: (customized key by me) Auto align
+### Dash Plugin for Xcode
+* option + click: Open docs
+
+### HOStringSense for Xcode
+* command + ': Showing the popover
+
+### XToDo
+* control + T: Trigger the List Window on/off
 # Windows

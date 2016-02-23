@@ -6,6 +6,7 @@ Here are plugins that I choose which can't be automated to be installed.
 * [Spectacle](https://www.spectacleapp.com/): and a more powerful one
   [Moom](http://manytricks.com/moom/)
 * [Shortcat](https://shortcatapp.com/)
+* [Snip](http://snip.qq.com/)
 
 
 # Firefox

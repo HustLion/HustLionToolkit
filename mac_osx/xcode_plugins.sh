@@ -42,3 +42,30 @@ cd ~
 git clone https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin.git
 cd FuzzyAutocompletePlugin
 xcodebuild
+
+# Dash Plugin for Xcode
+cd ~
+git clone https://github.com/omz/Dash-Plugin-for-Xcode.git
+cd Dash-Plugin-for-Xcode
+xcodebuild
+
+# HOStringSense for Xcode
+cd ~
+git clone https://github.com/holtwick/HOStringSense-for-Xcode.git
+cd HOStringSense-for-Xcode
+xcodebuild
+
+# XToDo
+cd ~
+git clone https://github.com/trawor/XToDo.git
+cd XToDo
+xcodebuild
+
+# XVim
+cd ~
+git clone https://github.com/XVimProject/XVim.git
+cd XVim
+xcodebuild
+
+# Finish up
+osascript shortcuts.applescript
