@@ -24,6 +24,8 @@ The project structure is shown below:
 
 8 directories
 ```
+# TODO
+* v1.0.0: Integrated with travis-ci.
 
 # Disclaimer
 The owner of this repository doesn't guarantee the reliability of this repository and any possible damage it will cause to your system. So please carefully examine the details of the repository and use it at your own risk. 
