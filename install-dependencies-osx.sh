@@ -10,3 +10,6 @@ chmod +x ./autoconfig.sh
 cd ../../mac_osx
 chmod +x ./xcode_plugins.sh
 ./xcode_plugins.sh
+
+# deal with shortcuts
+osascript ./mac_osx/shortcuts.applescript

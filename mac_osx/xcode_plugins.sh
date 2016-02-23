@@ -67,5 +67,3 @@ git clone https://github.com/XVimProject/XVim.git
 cd XVim
 make
 
-# Finish up
-osascript shortcuts.applescript
