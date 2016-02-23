@@ -79,9 +79,24 @@ git clone https://github.com/omz/ColorSense-for-Xcode.git
 cd ColorSense-for-Xcode
 xcodebuild
 
-# Polychromatic
+# Polychromatic - doesn't work with solarized dar
+# cd ~
+# git clone https://github.com/kolinkrewinkel/Polychromatic.git
+# cd Polychromatic
+# xcodebuild
+# cp Polychromatic/Bundled\ Themes/Carbon.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+
+# Lin
 cd ~
-git clone https://github.com/kolinkrewinkel/Polychromatic.git
-cd Polychromatic
+git clone https://github.com/questbeat/Lin.git
+cd Lin
 xcodebuild
-cp Polychromatic/Bundled\ Themes/Carbon.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+
+# SCXcodeMiniMap
+cd ~
+git clone https://github.com/stefanceriu/SCXcodeMiniMap.git
+cd SCXcodeMiniMap
+xcodebuild
+
+
+
