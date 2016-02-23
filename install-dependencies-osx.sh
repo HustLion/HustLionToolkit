@@ -12,4 +12,8 @@ chmod +x ./xcode_plugins.sh
 ./xcode_plugins.sh
 
 # deal with shortcuts
-osascript ./mac_osx/shortcuts.applescript
+if [[ $TRAVIS_OS_NAME == 'osx' || $TRAVIS_OS_NAME == 'linux' ]]; then
+# doesn't work with travis CI.
+else
+  osascript ./mac_osx/shortcuts.applescript
+fi
