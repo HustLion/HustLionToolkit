@@ -17,3 +17,6 @@ if [[ $TRAVIS_OS_NAME == 'osx' || $TRAVIS_OS_NAME == 'linux' ]]; then
 else
   osascript ./mac_osx/shortcuts.applescript
 fi
+
+# checkout the result
+ls -al ~ | grep "^l"
