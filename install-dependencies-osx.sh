@@ -18,4 +18,4 @@ else
 fi
 
 # checkout the result
-ls -al ~ | grep "^l"
+# ls -al ~ | grep "^l"
