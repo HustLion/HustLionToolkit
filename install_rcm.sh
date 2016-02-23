@@ -1,0 +1,12 @@
+curl -LO https://thoughtbot.github.io/rcm/dist/rcm-1.3.0.tar.gz && \
+
+  sha=$(sha256 rcm-1.3.0.tar.gz | cut -f1 -d' ') && \
+  [ "$sha" = "ddcf638b367b0361d8e063c29fd573dbe1712d1b83e8d5b3a868e4aa45ffc847"
+  ] && \
+
+    tar -xvf rcm-1.3.0.tar.gz && \
+    cd rcm-1.3.0 && \
+
+    ./configure && \
+    make && \
+    sudo make install
