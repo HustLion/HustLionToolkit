@@ -114,6 +114,12 @@ tell application "System Events"
 		keystroke tab
 		key code 37 using {shift down, command down}
 		click button "Add" of sheet 1 of window "Keyboard"
+    -- HOStringSense for Xcode
+		click button 1 of group 1 of tab group 1 of window "Keyboard"
+		set value of text field 1 of sheet 1 of window "Keyboard" to "Show Strings Popover"
+		keystroke tab
+		key code 39 using {command down}
+		click button "Add" of sheet 1 of window "Keyboard"
 	end tell
 end tell
 tell application "System Preferences" to quit
