@@ -30,3 +30,58 @@ cd ~
 git clone https://github.com/qfish/XAlign.git
 cd XAlign
 xcodebuild
+
+# KSImageNamed-Xcode
+cd ~
+git clone https://github.com/ksuther/KSImageNamed-Xcode.git
+cd KSImageNamed-Xcode
+xcodebuild
+
+# FuzzyAutocomplete
+cd ~
+git clone https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin.git
+cd FuzzyAutocompletePlugin
+xcodebuild
+
+# Dash Plugin for Xcode
+cd ~
+git clone https://github.com/omz/Dash-Plugin-for-Xcode.git
+cd Dash-Plugin-for-Xcode
+xcodebuild
+
+# HOStringSense for Xcode
+cd ~
+git clone https://github.com/holtwick/HOStringSense-for-Xcode.git
+cd HOStringSense-for-Xcode
+xcodebuild
+
+# XToDo
+cd ~
+git clone https://github.com/trawor/XToDo.git
+cd XToDo
+xcodebuild
+
+# XVim
+cd ~
+git clone https://github.com/XVimProject/XVim.git
+cd XVim
+make
+
+# VVDocumenter-Xcode - ///
+cd ~
+git clone https://github.com/onevcat/VVDocumenter-Xcode.git
+cd VVDocumenter-Xcode
+xcodebuild
+
+# ColorSense for Xcode
+cd ~
+git clone https://github.com/omz/ColorSense-for-Xcode.git
+cd ColorSense-for-Xcode
+xcodebuild
+
+# Polychromatic
+cd ~
+git clone https://github.com/kolinkrewinkel/Polychromatic.git
+cd Polychromatic
+xcodebuild
+cp Polychromatic/Bundled\ Themes/Carbon.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
