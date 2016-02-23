@@ -6,19 +6,14 @@ env RCRC=$DOTFILES_HOME/cross_platform/rcrc rcup
 cd cross_platform/dotfiles.local
 chmod +x ./autoconfig.sh
 
-# mac_osx
-cd ../../mac_osx
-chmod +x ./xcode_plugins.sh
-./xcode_plugins.sh
-
-# deal with shortcuts
 if [[ $TRAVIS_OS_NAME == 'osx' || $TRAVIS_OS_NAME == 'linux' ]]; then
   echo "My applescript doesn\'t work with travis CI. And plugins script does not work properly."
 else
-# mac_osx
-cd ../../mac_osx
-chmod +x ./xcode_plugins.sh
-./xcode_plugins.sh
+  # mac_osx
+  cd ../../mac_osx
+  chmod +x ./xcode_plugins.sh
+  ./xcode_plugins.sh
+  # deal with shortcuts
   osascript ./mac_osx/shortcuts.applescript
 fi
 
