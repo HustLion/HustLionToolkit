@@ -9,4 +9,7 @@ git flow feature finish <name>
 git flow feature publish <name>
 git flow feature pull <remote> <name>
 
+# git submodule
+git submodule foreach 'git checkout -b featureA'
+git submodule update --init --recursive
 

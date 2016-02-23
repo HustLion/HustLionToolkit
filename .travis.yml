@@ -1,0 +1,20 @@
+language: shell
+
+os:
+  - linux
+  - osx
+
+
+
+before_install:
+  - git submodule update --init --recursive
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew tap thoughtbot/formulae && brew install rcm; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo add-apt-repository ppa:martin-frost/thoughtbot-rcm && sudo apt-get update && sudo apt-get install rcm; fi
+
+# cross platform files goes to install 
+install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then chmod +x ./install-dependencies-osx.sh && ./install-dependencies-osx.sh ; fi
+
+# platform specific files goes to script
+script:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then cd cross_platform/dotfiles.local && chmod +x ./autoconfig.sh && ./autoconfig.sh; fi
