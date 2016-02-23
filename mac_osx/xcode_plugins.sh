@@ -30,3 +30,15 @@ cd ~
 git clone https://github.com/qfish/XAlign.git
 cd XAlign
 xcodebuild
+
+# KSImageNamed-Xcode
+cd ~
+git clone https://github.com/ksuther/KSImageNamed-Xcode.git
+cd KSImageNamed-Xcode
+xcodebuild
+
+# FuzzyAutocomplete
+cd ~
+git clone https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin.git
+cd FuzzyAutocompletePlugin
+xcodebuild
