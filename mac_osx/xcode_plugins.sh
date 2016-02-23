@@ -65,7 +65,7 @@ xcodebuild
 cd ~
 git clone https://github.com/XVimProject/XVim.git
 cd XVim
-xcodebuild
+make
 
 # Finish up
 osascript shortcuts.applescript
