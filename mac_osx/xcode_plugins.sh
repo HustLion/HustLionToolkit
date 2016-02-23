@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Code Pilot - CMD + SHIFT + X
+cd ~
 git clone https://github.com/macoscope/CodePilot.git
 cd CodePilot
 xcodebuild
@@ -17,3 +18,15 @@ xcodebuild
 # find ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -name  \
 # Info.plist -maxdepth 3 | xargs -I{} defaults write {}  \
 # DVTPlugInCompatibilityUUIDs -array-add XXXX
+
+# XcodeBoost - Later run the shortcuts script
+cd ~
+git clone https://github.com/fortinmike/XcodeBoost.git
+cd XcodeBoost
+xcodebuild
+
+# XAlign - control + shift + X
+cd ~
+git clone https://github.com/qfish/XAlign.git
+cd XAlign
+xcodebuild

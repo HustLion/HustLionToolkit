@@ -140,8 +140,31 @@ Capitalization doesn't matter here.
 * option + space: Show Alfred
 
 ## Spectacle
+### Basic Window Actions
 * option + command + left arrow: Move to the left half
 * option + command + right arrow: Move to the right half
+* option + command + up arrow: Move to the top half
+* option + command + down arrow: Move to the bottom half
+* control + command + left arrow: Move to the upper left
+* control + shift + command + left arrow: Move to the lower left
+* control + command + right arrow: Move to the upper right
+* control + shift + command + right arrow: Move to the lower right
+
+### Multiple Displays
+* control + option + command + right arrow: Move a window to the next display
+* control + option + command + left arrow: Move to the previous display
+
+### Window Action History
+* option + command + Z: Undo
+* option + shift + command + Z : Redo
 
 
+## Xcode
+### Code Pilot
+* command + shift + X: Open code pilot
+
+### XcodeBoost
+
+### XAligh
+* control + shift + X: (customized key by me) Auto align
 # Windows
