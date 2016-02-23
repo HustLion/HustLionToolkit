@@ -67,3 +67,21 @@ git clone https://github.com/XVimProject/XVim.git
 cd XVim
 make
 
+# VVDocumenter-Xcode - ///
+cd ~
+git clone https://github.com/onevcat/VVDocumenter-Xcode.git
+cd VVDocumenter-Xcode
+xcodebuild
+
+# ColorSense for Xcode
+cd ~
+git clone https://github.com/omz/ColorSense-for-Xcode.git
+cd ColorSense-for-Xcode
+xcodebuild
+
+# Polychromatic
+cd ~
+git clone https://github.com/kolinkrewinkel/Polychromatic.git
+cd Polychromatic
+xcodebuild
+cp Polychromatic/Bundled\ Themes/Carbon.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
