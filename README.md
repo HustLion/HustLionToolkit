@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This is a collection of developer tools employed by HustLion.
+This is a collection of developer tools employed by HustLion. Shortcuts and commands and methods that's used by Hustlion.
 
 By running the scripts in this repository, you will install:
 
@@ -29,6 +29,7 @@ The project structure is shown below:
 └── windows
 
 8 directories
+```
 
 # TODO
 * v1.0.0: Integrated with travis-ci and add release branch.
