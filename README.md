@@ -31,6 +31,19 @@ The project structure is shown below:
 8 directories
 ```
 
+# Software
+* 命令行：iTerm 2, Zsh, Oh-my-zsh
+* 笔记：印象笔记
+* 编辑器：Xcode, Vim
+* 文档阅读：Dash
+* UML: StarUML
+* 原型：Axure RP Pro
+* 矢量概念图：OmniGraffle, Sketch
+* 工作规划: OmniPlan
+* 概念动画: Cinema 4D
+
+
+
 # TODO
 * v1.0.0: Integrated with travis-ci and add release branch.
 
