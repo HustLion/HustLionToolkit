@@ -7,7 +7,8 @@ Here are plugins that I choose which can't be automated to be installed.
   [Moom](http://manytricks.com/moom/)
 * [Shortcat](https://shortcatapp.com/)
 * [Snip](http://snip.qq.com/)
-
+* [CleanMyMac3](http://macpaw.com)
+* [Parallels]: Or [VirtualBox](https://www.virtualbox.org/)
 
 # Firefox
 * [Vimperator](https://addons.mozilla.org/en-US/firefox/addon/vimperator/):
