@@ -39,6 +39,7 @@ The project structure is shown below:
 * UML: StarUML
 * 原型：Axure RP Pro
 * 矢量概念图：OmniGraffle, Sketch
+* 位图概念图：SketchBook
 * 工作规划: OmniPlan
 * 概念动画: Cinema 4D
 * 系统工具：CleanMyMac, VirtualBox
