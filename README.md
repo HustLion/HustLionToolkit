@@ -37,15 +37,18 @@ ssh key of github
 htk: HustlionToolKit
 git config --global user.name "HustLion"
 git config --global user.email "hustlionm@qq.com"
+git config --global push.default matching
 
-## Neovim
+
+## Neovim (command as nvim)
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
 ## Hust mirror ( Ubuntu 16.04 LTS (Xenial Xerus)  is too high as of now, 20160425)
 
-
+## htk automatic configuration
+zsh, nvim, dev-env, aliases
 
 # TODO
 * v1.0.0: Integrated with travis-ci and add release branch.
