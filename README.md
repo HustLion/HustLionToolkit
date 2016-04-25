@@ -30,6 +30,23 @@ The project structure is shown below:
 
 8 directories
 
+# Linux
+Lastpass
+sudo apt-get install git
+ssh key of github
+htk: HustlionToolKit
+git config --global user.name "HustLion"
+git config --global user.email "hustlionm@qq.com"
+
+## Neovim
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+## Hust mirror ( Ubuntu 16.04 LTS (Xenial Xerus)  is too high as of now, 20160425)
+
+
+
 # TODO
 * v1.0.0: Integrated with travis-ci and add release branch.
 
