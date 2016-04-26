@@ -38,7 +38,7 @@ htk: HustlionToolKit
 git config --global user.name "HustLion"
 git config --global user.email "hustlionm@qq.com"
 git config --global push.default matching
-
+hosts: https://github.com/racaljk/hosts
 
 ## Neovim (command as nvim)
 sudo apt-get install software-properties-common
