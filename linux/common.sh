@@ -10,4 +10,5 @@ sudo chown -R hustlion:hustlion /var/www
 # ls /var/www/ -l
 
 # Meteor
+# Meteor packages: https://atmospherejs.com/
 curl https://install.meteor.com/ | sh
