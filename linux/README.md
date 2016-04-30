@@ -21,7 +21,9 @@ Util: http://ping.eu/
 http://www.ubuntuupdates.org/
 https://www.pushbullet.com/
 Lastpass
-sudo apt-get install git
+sudo apt-get install git xclip
+xclip is for the nvim_clipboard
+git submodule update --init --recursive
 ssh key of github
 htk: HustlionToolKit
 git config --global user.name "HustLion"
